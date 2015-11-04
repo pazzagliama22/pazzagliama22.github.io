@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project2</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="PicturesT5.css" rel="stylesheet">
+	<link href="css/custom.css" rel = "stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+ <header>
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar=collapse">
+					<span class ="sr-only">Toggle navigation</span>
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" style="font-size:40px">Team #5</a>	
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+				 
+				 <table style="witdth 50%" cellpadding="2" id="t1">
+					<td>
+					<li class="Team5.html"><a href="Team5.html">
+					<td><a href="Team5.html" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-home"></span> Home</a></li>
+					</td>
+					
+					<td>
+					<li class="dropdown">
+						<a class="dropdown-toggle; btn btn-default btn-lg"" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-education"></span> ABOUT US</a>
+					<ul class="dropdown-menu">
+						<li><a href="PersonalPage.html">MEGAN</a></li>
+						<li><a href="workingAlyssaPersonalPage.html">ALYSSA</a></li>
+						<li><a href="AboutMe.html">MICHAELA</a></li>
+						<li><a href="EmmaPersonal.html">EMMA</a></li>
+					</ul>
+					</li>
+					</td>
+					
+					<td>
+						<li class="dropdown">
+						<a class="dropdown-toggle; btn btn-default btn-lg"" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-tasks"></span> PROJECTS</a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header"><center>Assignments</center></li>
+						<li class="divider"></li>
+						<li><a href="Team5Photo.html">Service Projects</a></li>
+						<li><a href="LinuxNotesheet.pdf">Linux NoteSheets</a></li>
+						<li><a href="SQLNotesheet.pdf">SQL NoteSheets</a></li>
+						<li><a href="SprintBacklog Team5.pdf">Backlog</a></li>
+						<li><a href="CISClubNoteSheet.pdf">Computer Science Meetings</a></li>
+					</ul>
+					</li>
+					</td>
+					
+					<td>
+						<li class="dropdown">
+						<a class="dropdown-toggle; btn btn-default btn-lg"" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-user"></span>CONTACT US</a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-header"><center>EMAILS - @mounties.mansfield.edu </center></li>
+						<li class="divider"></li>
+						<center>
+						<li><a href="PersonalPage.html">Megan - Pazzagliama22</a></li>
+						<li><a>Alyssa - Sebastiana09</a></li>
+						<li><a>Michaela - Butzmm18</a></li>
+						<li><a>Emma - Lynche19</a></li>
+						</center>
+					</ul>
+					</li>
+					</td>
+					</table>
+			</div>
+		</div>
+	</div>
+</header>
+	<body>			
+		
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Girls Gone Wired</h1>
+			
+<div class="gallery" align="center">
+		
+<hr>
+<div class="thumbnails">
+	<img onmouseover="preview.src=img1.src" name="img1" src="BeforeCase.jpg" alt="" />
+	<img onmouseover="preview.src=img2.src" name="img2" src="Before.jpg" alt="" />
+	<img onmouseover="preview.src=img3.src" name="img3" src="After.jpg" alt=""/>
+	<img onmouseover="preview.src=img4.src" name="img4" src="BeforeBulletin2.jpg" alt="" />
+	<img onmouseover="preview.src=img5.src" name="img5" src="BeforeBulletin.jpg" alt="" />
+	<img onmouseover="preview.src=img6.src" name="img6" src="All.jpg" alt="" />
+	<img onmouseover="preview.src=img7.src" name="img7" src="Bill.jpg" alt="" />
+	<img onmouseover="preview.src=img9.src" name="img9" src="Group.jpg" alt="" />
+	<img onmouseover="preview.src=img10.src" name="img10" src="workingonboard.jpg" alt="" />
+	<img onmouseover="preview.src=img11.src" name="img11" src="DONE.jpg" alt="" />
+</div>
+<hr>
+<div class="preview" align="center">
+	<img name="preview" src="Group.jpg" alt=""/>
+</div>
+
+ </body>	
+
+		
+<footer>
+	<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+		<div class="container">
+			<!----FACEBOOK STILL NOT WORKING---->
+			<div class="navbar-text pull-left">
+				<p> 2015 Team 5 </p>
+			</div>
+			<div class="navbar-text pull-right">
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+ </footer>
+</html>
